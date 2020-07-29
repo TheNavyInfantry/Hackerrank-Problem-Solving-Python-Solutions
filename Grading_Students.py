@@ -6,5 +6,3 @@ def gradingStudents(grades):
             elif (each % 5) == 4:
                 each += 1
         print(each)
-
-gradingStudents([73,67,38,33])
