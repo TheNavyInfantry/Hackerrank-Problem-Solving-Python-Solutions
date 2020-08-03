@@ -1,5 +1,5 @@
 def utopianTree(n):
-    startingHeight = 1
+    startingHeight = 1 #default starting height of planted tree
     for i in range(1,n+1):
         if i % 2 != 0:
             startingHeight *= 2
