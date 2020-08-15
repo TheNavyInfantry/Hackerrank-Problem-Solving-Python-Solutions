@@ -1,10 +1,10 @@
 def angryProfessor(k, arr):
 
-    studentArrivalNum = [each for each in arr if each <= 0]
+    arrivalOnTime = [each for each in arr if each <= 0]
 
-    if len(studentArrivalNum) < k:
+    if len(arrivalOnTime) < k:
         return 'YES' #Class canceled
-    elif len(studentArrivalNum) >= k:
+    elif len(arrivalOnTime) >= k:
         return 'NO' #Class did not canceled
 
 
