@@ -8,4 +8,5 @@ def utopianTree(n):
 
     return startingHeight
 
-#odd result is spring, means *2 ; even result is summer, means +1
+#odd result is spring, means *2;
+#even result is summer, means +1
